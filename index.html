@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Norah VAT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+
+  <h1>Norah VAT</h1>
+  <p class="dua">نسأل الله لكم التوفيق والنجاح</p>
+
+  <div id="tests"></div>
+
+  <script src="data.js"></script>
+  <script>
+    const container = document.getElementById("tests");
+    quizzes.forEach((q, i) => {
+      const btn = document.createElement("button");
+      btn.textContent = q.title;
+      btn.onclick = () => {
+        localStorage.setItem("quizIndex", i);
+        location.href = "quiz.html";
+      };
+      container.appendChild(btn);
+    });
+  </script>
+
+</body>
+</html>
