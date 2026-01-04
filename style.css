@@ -1,0 +1,78 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  background: #f8f6f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #4b3f72;
+}
+
+h1 {
+  color: #6a9f58;
+}
+
+.dua {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.option {
+  background: #f0eef5;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.option:hover {
+  background: #e0dbee;
+}
+
+.option.selected {
+  background: #d1c9f1;
+}
+
+.option.correct {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.option.wrong {
+  background: #ffcdd2;
+  color: #b71c1c;
+}
+
+.explain {
+  margin-top: 20px;
+  background: #f6f4fb;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+button {
+  background: #6a9f58;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  margin: 15px 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4b3f72;
+}
